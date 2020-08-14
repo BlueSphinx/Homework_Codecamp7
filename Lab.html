@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Questions</title>
+    <style>
+        table,th,td
+        {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lab Questions</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>1. Attribute </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Tag</th>
+                <th>Attribute(s)</th>
+                <th>Usage</th>
+            </tr>
+            <tr>
+                <td>&lt;h&gt;</td>
+                <td>No self-attributes but support global attributes. Please see global attributes' table below.</td>
+                <td>Please see global attributes' table below.</td>
+            </tr>
+            <tr>
+                <td>&lt;p&gt;</td>
+                <td>No self-attributes but support global attributes. Please see global attributes' table below.</td>
+                <td>Please see global attributes' table below.</td>
+            </tr>
+            <tr>
+                <td>&lt;div&gt;</td>
+                <td>No self-attributes but support global attributes. Please see global attributes' table below.</td>
+                <td>Please see global attributes' table below.</td>
+            </tr>
+            <tr>
+                <td>&lt;img&gt;</td>
+                <td>
+                    alt<br>
+                    crossorigin<br>
+                    height<br> 
+                    ismap<br> 
+                    longdesc<br> 
+                    referrerpolicy<br>
+                    sizes<br> 
+                    src<br> 
+                    srcset<br> 
+                    usemap<br> 
+                    width
+                </td>
+                <td>
+                    alt: Specifies an alternate text for an image <br> 
+                    crossorigin: Allow images from third-party sites that allow cross-origin access to be used with canvas <br>
+                    height: Specifies the height of an image<br>
+                    ismap: Specifies an image as a server-side image map<br>
+                    longdesc: Specifies a URL to a detailed description of an image<br>
+                    referrerpolicy: Specifies which referrer to use when fetching the image<br>
+                    sizes: 	Specifies image sizes for different page layouts<br>
+                    src: Specifies the path to the image<br>
+                    srcset: Specifies the path to an image to use in different situations<br>
+                    usemap: Specifies an image as a client-side image map<br>
+                    width: Specifies the width of an image
+                </td>
+            <tr>
+                <td>&lt;a&gt;</td>
+                <td>
+                    download<br>
+                    href<br>
+                    hreflang<br>
+                    media<br>
+                    ping<br>
+                    referrerpolicy<br>
+                    rel<br>
+                    target<br>
+                    type<br>
+                </td>
+                <td>
+                    download: Specifies that the target will be downloaded when a user clicks on the hyperlink<br>
+                    href: 	Specifies the URL of the page the link goes to<br>
+                    hreflang: Specifies the language of the linked document<br>
+                    media: Specifies what media/device the linked document is optimized for<br>
+                    ping: Specifies a space-separated list of URLs to which, when the link is followed, post requests with the body ping will be sent by the browser (in the background). Typically used for tracking.<br>
+                    referrerpolicy: Specifies which referrer to send<br>
+                    rel: Specifies the relationship between the current document and the linked document<br>
+                    target: Specifies where to open the linked document<br>
+                    type: 	Specifies the media type of the linked document
+                </td>
+            </tr>
+            <tr>
+                <td>&lt;ul&gt;</td>
+                <td>No self-attributes but support global attributes. Please see global attributes' table below.</td>
+                <td>Please see global attributes' table below.</td>
+            </tr>
+            <tr>
+                <td>&lt;ol&gt;</td>
+                <td>
+                    reversed<br>
+                    start<br>
+                    type
+                </td>
+                <td>
+                    reversed: Specifies that the list order should be reversed (9,8,7...)<br>
+                    start: Specifies the start value of an ordered list<br>
+                    type: Specifies the kind of marker to use in the list
+                </td>
+            </tr>
+            <tr>
+                <td>&lt;table&gt;</td>
+                <td>No self-attributes but support global attributes. Please see global attributes' table below.</td>
+                <td>Please see global attributes' table below.</td>
+            </tr>
+            <tr>
+                <td>&lt;form&gt;</td>
+                <td>
+                    accept-charset<br>
+                    action<br>
+                    autocomplete<br>
+                    enctype<br>
+                    method<br>
+                    name<br>
+                    novalidate<br>
+                    rel<br>
+                    target<br>
+                </td>
+                <td>
+                    accept-charset: Specifies the character encodings that are to be used for the form submission<br>
+                    action: Specifies where to send the form-data when a form is submitted<br>
+                    autocomplete: Specifies whether a form should have autocomplete on or off<br>
+                    enctype: Specifies how the form-data should be encoded when submitting it to the server (only for method="post")<br>
+                    method: Specifies the HTTP method to use when sending form-data<br>
+                    name: 	Specifies the name of a form<br>
+                    novalidate: Specifies that the form should not be validated when submitted<br>
+                    rel: Specifies the relationship between a linked resource and the current document<br>
+                    target: Specifies where to display the response that is received after submitting the form
+                </td>
+            </tr>
+            <tr>
+                <td>&lt;button&gt;</td>
+                <td>
+                    autofocus<br>
+                    disabled<br>
+                    form<br>
+                    formaction<br>
+                    formenctype<br>
+                    formmethod<br>
+                    formnovalidate<br>
+                    formtarget<br>
+                    name<br>
+                    type<br>
+                    value<br>
+                </td>
+                <td>
+                    autofocus: Specifies that a button should automatically get focus when the page loads<br>
+                    disabled: 	Specifies that a button should be disabled<br>
+                    form: Specifies which form the button belongs to<br>
+                    formaction: Specifies where to send the form-data when a form is submitted. Only for type="submit"<br>
+                    formenctype: Specifies how form-data should be encoded before sending it to a server. Only for type="submit"<br>
+                    formmethod: Specifies how to send the form-data (which HTTP method to use). Only for type="submit"<br>
+                    formnovalidate: Specifies that the form-data should not be validated on submission. Only for type="submit"<br>
+                    formtarget: Specifies where to display the response after submitting the form. Only for type="submit"<br>
+                    name: Specifies a name for the button<br>
+                    type: Specifies the type of button<br>
+                    value: 	Specifies an initial value for the button
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+    
+    <br>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Global Attributes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Global Attributes</th>
+                <th>Usage</th>
+            </tr>
+            <tr>
+                <td>accesskey</td>
+                <td>Specifies a shortcut key to activate/focus an element.</td>
+            </tr>
+            <tr>
+                <td>class</td>
+                <td>Specifies one or more classnames for an element (refers to a class in a style sheet).</td>
+            </tr>
+            <tr>
+                <td>contenteditable</td>
+                <td>Specifies whether the content of an element is editable or not.</td>
+            </tr>
+            <tr>
+                <td>data-*</td>
+                <td>Used to store custom data private to the page or application.</td>
+            </tr>
+            <tr>
+                <td>dir</td>
+                <td>Specifies the text direction for the content in an element.</td>
+            </tr>
+            <tr>
+                <td>draggable</td>
+                <td>Specifies whether an element is draggable or not.</td>
+            </tr>
+            <tr>
+                <td>hidden</td>
+                <td>Specifies that an element is not yet, or is no longer, relevant.</td>
+            </tr>
+            <tr>
+                <td>id</td>
+                <td>Specifies a unique id for an element.</td>
+            </tr>
+            <tr>
+                <td>lang</td>
+                <td>Specifies the language of the element's content.</td>
+            </tr>
+            <tr>
+                <td>spellcheck</td>
+                <td>Specifies whether the element is to have its spelling and grammar checked or not.</td>
+            </tr>
+            <tr>
+                <td>style</td>
+                <td>Specifies an inline CSS style for an element.</td>
+            </tr>
+            <tr>
+                <td>tabindex</td>
+                <td>Specifies the tabbing order of an element.</td>
+            </tr>
+            <tr>
+                <td>title</td>
+                <td>Specifies extra information about an element.</td>
+            </tr>
+            <tr>
+                <td>translate</td>
+                <td>Specifies whether the content of an element should be translated or not.</td>
+            </tr>
+
+        </tbody>
+    </table>
+    
+    <br>
+    <hr>
+    <br>
+
+    <table>
+        <thead>
+            <tr>
+                <th>2. Differentiation Tag</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Tag</th>
+                <th>Similarity</th>
+                <th>Difference</th>
+            </tr>
+            <tr>
+                <td>&lt;hr&gt;&&lt;br&gt;</td>
+                <td>
+                    1.Both of them give line break.<br>
+                    2.Both of them do not require close tag.
+                </td>
+                <td>&lt;hr&gt; gives a horizontal link break but &lt;br&gt; gives an empty line break</td>
+            </tr>
+            <tr>
+                <td>&lt;ul&gt;&&lt;ol&gt;</td>
+                <td>
+                    1.Both of them define list.<br>
+                    2.Both of them require close tag.
+                </td>
+                <td>
+                    &lt;ol&gt; gives ordered list that can be numerical or alphanetical but &lt;ul&gt; gives unordered list.
+                </td>
+            </tr>
+            <tr>
+                <td>&lt;select&gt;&&lt;checkbox&gt;&&lt;radio button&gt;</td>
+                <td>All of them provide choices for the user to choose something.</td>
+                <td>1. &lt;select&gt; creates drop-down list. <br>
+                    2. &lt;checkbox&gt; is shown as a square box that is ticked when activaterd.<br>
+                    3. &lt;radio button&gt; is presented in radio group. Only one radio button in a group can be selected at the same time.
+                </td>
+            </tr>
+            <tr>
+                <td>&lt;div&gt;&&lt;span&gt;</td>
+                <td>Both of them define section or division in HTML.</td>
+                <td>&lt;div&gt; is used as a container for HTML elements while &lt;span&gt;is an inline container used to mark up a part of a text, or a part of a document. </td>
+            </tr>
+            <tr>
+                <td>&lt;script&gt;&&lt;style&gt;</td>
+                <td>They both embedded external documents.</td>
+                <td>&lt;script&gt; is used to embed a client-side script (JavaScript) while &lt;style&gt; is used to define style information (CSS) for a document.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+    <hr>
+    <br>
+
+    <table>
+        <thead>
+            <tr>
+                <th>3. Input Type</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Input Type</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>button</td>
+                <td>It defines a button.</td>
+            </tr>
+            <tr>
+                <td>checkbox</td>
+                <td>It defines a checkbox that let a user select ZERO or MORE options of a limited number of choices.</td>
+            </tr>
+            <tr>
+                <td>color</td>
+                <td>It is used for input fields that should contain a color.</td>
+            </tr>
+            <tr>
+                <td>date</td>
+                <td>It is used for input fields that should contain a date.</td>
+            </tr>
+            <tr>
+                <td>datetime-local</td>
+                <td>It specifies a date and time input field, with no time zone.</td>
+            </tr>
+            <tr>
+                <td>email</td>
+                <td>It is used for input fields that should contain an e-mail address.</td>
+            </tr>
+            <tr>
+                <td>file</td>
+                <td>It defines a file-select field and a "Browse" button for file uploads</td>
+            </tr>
+            <tr>
+                <td>hidden</td>
+                <td>It defines a hidden input field that let web developers include data that cannot be seen or modified by users when a form is submitted.</td>
+            </tr>
+            <tr>
+                <td>image</td>
+                <td>It defines an image as a submit button. The path to the image is specified in the src attribute.</td>
+            </tr>
+            <tr>
+                <td>month</td>
+                <td>It allows the user to select a month and year</td>
+            </tr>
+            <tr>
+                <td>number</td>
+                <td>It defines a numeric input field. The user can also set restrictions on what numbers are accepted.</td>
+            </tr>
+            <tr>
+                <td>password</td>
+                <td>It defines a password field.</td>
+            </tr>
+            <tr>
+                <td>radio</td>
+                <td>It defines a radio button which let a user select ONLY ONE of a limited number of choices.</td>
+            </tr>
+            <tr>
+                <td>range</td>
+                <td>It defines a control for entering a number whose exact value is not important (like a slider control). Default range is 0 to 100.</td>
+            </tr>
+            <tr>
+                <td>reset</td>
+                <td>It defines a reset button that will reset all form values to their default values.</td>
+            </tr>
+            <tr>
+                <td>search</td>
+                <td>It is used for search fields (a search field behaves like a regular text field).</td>
+            </tr>
+            <tr>
+                <td>submit</td>
+                <td>It defines a button for submitting form data to a form-handler.</td>
+            </tr>
+            <tr>
+                <td>tel</td>
+                <td>It is used for input fields that should contain a telephone number.</td>
+            </tr>
+            <tr>
+                <td>text</td>
+                <td>It defines a one-line text input field.</td>
+            </tr>
+            <tr>
+                <td>time</td>
+                <td>It allows the user to select a time (no time zone).</td>
+            </tr>
+            <tr>
+                <td>url</td>
+                <td>It is used for input fields that should contain a URL address.</td>
+            </tr>
+            <tr>
+                <td>week</td>
+                <td>It allows the user to select a week and year.</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+    <hr>
+    <br>
+
+    <table>
+        <thead>
+            <tr>
+                <th>4. Text with tags</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Tags</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>&lt;strong&gt;&lt;/strong&gt;</td>
+                <td>It makes the text as bold.</td>
+            </tr>
+            <tr>
+                <td>&lt;label&gt;&lt;/label&gt;</td>
+                <td>It defines a label for several elements.</td>
+            </tr>
+            <tr>
+                <td>&lt;del&gt;&lt;/del&gt;</td>
+                <td>It defines text that has been deleted from a document.</td>
+            </tr>
+            <tr>
+                <td>&lt;b&gt;&lt;/b&gt;</td>
+                <td>It makes the text as bold.</td>
+            </tr>
+            <tr>
+                <td>&lt;em&gt;&lt;/em&gt;</td>
+                <td>It makes the text emphasized.</td>
+            </tr>
+            <tr>
+                <td>&lt;mark&gt;&lt;/mark&gt;</td>
+                <td>It highlights the text.</td>
+            </tr>
+            <tr>
+                <td>&lt;i&gt;&lt;/i&gt;</td>
+                <td>It makes the text emphasized.</td>
+            </tr>
+            <tr>
+                <td>&lt;sub&gt;&lt;/sub&gt;</td>
+                <td>The text becomes subscript text.</td>
+            </tr>
+            <tr>
+                <td>&lt;sup&gt;&lt;/sup&gt;</td>
+                <td>The text becomes superscript text.</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
