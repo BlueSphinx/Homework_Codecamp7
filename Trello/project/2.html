@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form Validation Project</title>
+</head>
+<body>
+    <h4>A Simple Form</h4>
+    <h5 style="color:mediumpurple;"><i>Form Fundamentals</i></h5>
+    <form id="orderForm" autocomplete="on"  >
+        <fieldset>
+            <legend> Customer Info </legend>
+                <p>
+                    <label>Name:
+                        <input id="fullname" name="name" type="text"
+                            placeholder="Enter your name" autofocus required size="50">
+                    </label>
+                </p>
+                <p>
+                    <label>Telephone:
+                        <input id="tel" name="telephone" type="tel"    required size="50"
+                            placeholder="Pattern: 1-234-567-8910"
+                            pattern="([0-9]{1}(-[0-9]{3})(-[0-9]{3})(-[0-9]{4}))">
+                    </label>
+                </p>
+                <p>
+                    <label>Email address:
+                        <input id="email" name="email" type="email" 
+                            placeholder="Enter your email address" required multiple size="50">
+                    </label>
+                </p>
+        </fieldset>
+        <fieldset>
+            <legend> Books </legend>
+            <p>
+                <label>
+                    <input type="text" name="productlist" list="books" size="45">
+                    <datalist id="books">
+                        <option value="Ragnarok: How to be a great wizard">
+                        <option value="ROV: How to be a dope">
+                        <option value="FreeFire: How your phone gets burn">
+                        <option value="PubG: Battle Royale">
+                        <option value="Pokemon: How to be in fantasy">
+                    </datalist>
+                </label>
+                <label>
+                    Quantity (Maximum 5): <input name="form_number" id="form_number"
+                    type="number" min="1" max="5" >
+                </label>
+            </p>
+        </fieldset>
+        <input type="submit" value="Submit" />
+    </form>
+</body>
+</html>
