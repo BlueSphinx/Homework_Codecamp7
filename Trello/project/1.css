@@ -1,6 +1,6 @@
 #tribute-info 
 {
-    background: lightgrey;
+    background: lightskyblue;
 }
 
 @media (max-width: 460px) 
@@ -38,7 +38,7 @@ li
 
 body 
 {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+    font-family: 'Arial';
     font-size: 1.6rem;
     line-height: 1.5;
     text-align: center;
